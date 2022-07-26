@@ -1,2 +1,6 @@
 selenium-wire==4.6.5
 json5==0.9.6
+urllib3==1.26.11
+pyOpenSSL==22.0.0
+blinker==1.5
+pyparsing==3.0.9

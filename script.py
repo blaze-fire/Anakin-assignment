@@ -3,7 +3,7 @@ from time import sleep
 from seleniumwire import webdriver
 from seleniumwire.utils import decode
 
-driver = webdriver.Chrome(executable_path="/home/krish/Downloads/chromedriver")
+driver = webdriver.Chrome(executable_path="./chromedriver")
 
 # url launch
 url = "https://food.grab.com/ph/en/restaurants"
