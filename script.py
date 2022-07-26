@@ -27,6 +27,8 @@ while True:
         for request in driver.requests:
             if request.response and request.url.startswith("https://portal.grab.com/foodweb/v2/search"):
                 response = request.response
+
+                # the response is in bytes and have to manually decode
                 body = decode(response.body, response.headers.get(
                     'Content-Encoding', 'identity'))
 
@@ -43,7 +45,7 @@ while True:
     except:
 
         # when all entries stored than save only unique entries
-        with open("test.json", "w+") as json_file:
+        with open("restaurants.json", "w+") as json_file:
             res = []
             [res.append(x) for x in arr if x not in res]
             json.dump(res, json_file)
