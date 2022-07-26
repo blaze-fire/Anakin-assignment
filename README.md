@@ -8,7 +8,7 @@ To run the code: <br>
 2. run `pip install -r requirements.txt`
 3. run the python script `python script.py`
 
-Find the extracted coordinates [here](https://github.com/blaze-fire/Anakin-assignment/blob/main/restaurants.json).
+Find the extracted coordinates [here](https://github.com/blaze-fire/Anakin-assignment/blob/main/restaurants.csv).
 
 Here is the exact [code](https://github.com/blaze-fire/Anakin-assignment/blob/main/script.py)
 
